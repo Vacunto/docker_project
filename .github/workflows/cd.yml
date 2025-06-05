@@ -31,6 +31,7 @@ jobs:
           host: '${{ secrets.SERVER_IP }}'
           username: '${{ secrets.SERVER_USER }}'
           password: ${{ secrets.SERVER_PASSWORD }}
+          port: 4444
           script: |
             cd /home/vacunto/cd_docker_project
             docker compose pull
