@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    image: phoenixwh/cd_docker_project:latest
+
+    ports:
+      - '52:52'
+    restart: always
